@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Safina November top scorers leaderboard.">
+  <meta name="theme-color" content="#101510">
+  <title>Top Scorers — Letrical</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Letrical home"><span class="wordmark-mark">L</span>LETRICAL</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="players.html">Players</a><a class="active" href="scorers.html">Top scorers</a><a href="honours.html">Honours</a></nav>
+    <a class="header-cta" href="honours.html">Explore honours <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="page-hero page-width"><p class="eyebrow">NUMBERS THAT MOVE THE GAME</p><h1>Find the<br><em>back of the net.</em></h1><p>The Safina November goals leaderboard. Every name earned its place.</p><div class="page-hero-meta"><span>TOP SCORERS</span><span>·</span><span>NOVEMBER EDITION</span></div></section>
+    <section class="section page-width leaderboard-section"><div class="leaderboard-top"><div><p class="eyebrow">THE LEADERBOARD</p><h2>Goals <em>count.</em></h2></div><div class="leaderboard-total"><strong id="leaderboard-total">—</strong><span>TOTAL GOALS</span></div></div><div class="table-shell"><table class="leaderboard"><thead><tr><th scope="col">RANK</th><th scope="col">PLAYER</th><th scope="col">POSITION</th><th scope="col">GOALS</th></tr></thead><tbody id="scorers-table"></tbody></table></div><p class="table-footnote">Season figures shown are from the Safina November ratings supplied for this edition.</p></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="index.html"><span class="wordmark-mark">L</span>LETRICAL</a><p>Safina football. Every player, every season, every story.</p><span>© <span data-year></span> Letrical</span></footer>
+</body>
+</html>
