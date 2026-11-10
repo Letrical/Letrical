@@ -1,4 +1,4 @@
-# Letrical — Safina Football
+# Safina League — Safina Football
 
 A responsive, static multi-page website for Safina football, built with plain HTML, CSS, and JavaScript. No build step, framework, or server-side code is required.
 
